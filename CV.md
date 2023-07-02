@@ -2,7 +2,7 @@
 
 ## **Contacts**
 
-* *Location*: Mogilev, Belsrus
+* *Location*: Mogilev, Belarus
 * *Telegram*: tropiya
 * *GitHub/Discord*: msViki
 * *Phone*: +375336335965
