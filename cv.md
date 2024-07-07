@@ -16,7 +16,7 @@ I have good interpersonal and high-order thinking skills.
     * Assistant-interpreter (Enlish language)
 * **Courses**:
     * Rolling Skopes School (Front-end developer)
-    
+
 ## **Skills**
 * Git/Github
 * HTML
