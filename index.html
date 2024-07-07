@@ -1,1 +1,79 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title></head><body></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+<header><nav class="nav">
+<ul class="nav-list">
+<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+</ul>
+</nav></header>
+<main><h1 class="h1">Viktoriy Osmolovskaya</h1>
+<img class="img" src="./image.jpg" alt="My photo">
+<section class="upper"><h2 class="h2" id="contacts">Contacts</h2>
+<ul>
+<li><span class="bold">Location</span>: Mogilev, Belarus</li>
+<li><span class="bold">Telegram</span>: tropiya</li>
+<li><span class="bold">GitHub/Discord</span>: msViki</li>
+<li><span class="bold">Phone</span>: +375336335965</li>
+</ul></section>
+<section class="upper"><h2 class="h2" id="about">About me</h2>
+I have good interpersonal and high-order thinking skills. </section>
+<section><h2 class="h2" id="education">Education</h2>
+<p class="line"></p>
+<ol>
+<li><span class="bold">University</span>: Belarusian state university
+<ul>
+<li>Lawyer</li>
+<li>Assistant-interpreter (Enlish language)</li>
+</ul></li>
+<li><span class="bold">Courses</span>: Rolling Skopes School (Front-end developer)</li>
+</ol></section>
+<section><h2 class="h2" id="projects">Projects</h2>
+<span><a href="https://github.com/msViki/rsschool-cv" class="project">RS School - CV</a></span></section>
+<section><h2 class="h2" id="skills">Skills</h2>
+<p class="line"></p>
+<ul>
+<li>Git/Github</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript basics</li>
+<li>VS code</li>
+</ul>
+Code example:
+<pre><code>function squareDigits(num){
+let number = String(num)
+let result = ""
+for (i=0; i !== number.length; i++){
+let square = Math.pow(number[i],2)
+result += square
+}
+return Number(result);}</code></pre>
+</section>
+<section><h2 class="h2" id="languages">Languages</h2>
+<p class="line"></p>
+<ul>
+<li>Russian: Native</li>
+<li>Belarussian: Native</li>
+<li>English: B2</li>
+<li>Korean: A2</li>
+</ul></section>
+</main>
+<footer>
+<p class="RS"><a href="https://rs.school/courses/javascript-ru" class="footer">RS School</a></p>
+<img class="imgRS" src="/rsschool-cv/rs.png" alt="RSS logo">
+<span class="git"> <a href="https://github.com/msViki" class="footer">My GitHub</a></span>
+<p class="year">2024</p>
+</footer>
+</body>
+</html>
